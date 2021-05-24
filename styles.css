@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Digital-7';
+    src: local('../src/fonts/digital-7.ttf');
+}
+
+.btn-text{
+    font-family: 'Roboto', sans-serif;
+    fill: #4c4c4c;
+    font-size: xx-large;
+}
+
+#display-numbers,
+#date, 
+#time
+{
+    font-family: 'Digital-7';
+    fill: #333;
+}
+
+#date, 
+#display-numbers{
+    text-anchor: end;
+}
+
+.btn-special-colour{
+    fill: #e882de;
+}
+
+.btn-colour{
+    fill:#eacaff;
+}
+
+.buttons{
+    cursor:pointer;
+}
+
+.buttons g:hover{
+    fill-opacity: 0.7;
+}
+
+.buttons g:active {
+    fill-opacity: 0.9;
+}
+
